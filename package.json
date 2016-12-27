@@ -1,6 +1,6 @@
 {
   "name": "vue-image-compressor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue Component for Convert File to base64",
   "main": "./src/js/components/vue-image-compressor.vue",
   "scripts": {
