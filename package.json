@@ -1,6 +1,6 @@
 {
   "name": "vue-image-compressor",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vue Component for Convert File to base64",
   "main": "./src/js/components/vue-image-compressor.vue",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BosNaufal/vue2-starter.git"
+    "url": "git+https://github.com/BosNaufal/vue-image-compressor.git"
   },
   "keywords": [
     "vue",
@@ -20,6 +20,7 @@
     "image-compressor",
     "image-processor",
     "compressor",
+    "client-side",
     "vue-image-compressor"
   ],
   "author": "Naufal Rabbani <bosnaufalemail@gmail.com>",

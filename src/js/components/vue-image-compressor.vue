@@ -1,6 +1,6 @@
 
 <template>
-  <input type="file" @change="onChange" multiple="false" />
+  <input type="file" @change="onChange" />
 </template>
 
 
@@ -63,6 +63,9 @@
         When Input File has changed
       */
       onChange(e){
+        // If There's no file choosen
+        let file = e.target.files[0]
+        if(!file) return false
 
         // get the file
         this.file = e.target.files[0];
